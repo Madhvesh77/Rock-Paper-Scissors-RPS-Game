@@ -1,2 +1,7 @@
-# Rock-Paper-Scissors-RPS-Game
 The "Rock, Paper, Scissors Game" is a simple yet engaging C++ program that allows users to play the classic rock, paper, scissors game against the computer. The project is designed to provide an interactive and enjoyable experience for users to test their decision-making skills and luck in a series of rounds.
+
+The program starts by prompting the user to enter the number of rounds they wish to play. Once the user provides the input, the game begins. For each round, the user is asked to choose one of the three options - 'r' for Rock, 'p' for Paper, or 's' for Scissors. The computer randomly selects one of these options as its choice.
+
+After both the user and computer have made their selections, the program determines the winner of the round based on the classic rock, paper, scissors rules: rock crushes scissors, scissors cut paper, and paper covers rock. The program then announces the winner of the round, whether it's the user, the computer, or if it's a tie.
+
+Throughout the game, the program keeps track of the number of rounds won by the user and the computer. Once the specified number of rounds is complete, the program displays the final results, declaring the overall winner. If the user wins more rounds than the computer, the program congratulates the user on winning the game. If the computer wins more rounds, the program acknowledges the computer as the winner. In case both sides win an equal number of rounds, the game is considered a tie.
